@@ -15,21 +15,7 @@
 ## 概述
 自己练手的一个项目
 
-项目目前主要有:
-
-* eskeeper-admin
-	
-	主要产生基于ES集群的监控需求, 简单的管理需求, 常用诊断积累.
-	
-* eskeeper-drive
-
-	主要针对java开发人员, 可以提供基于 Java api, Restful api, Sql的操作, 封装原有的EsClient.
-
-软件环境为: JDK1.8
-
 ## 需求
-
-### eskeeper-admin 需求
 
 * 集群列表
 	* 集群名称
@@ -71,7 +57,6 @@
 * 当前节点下哪个资源在最近10秒钟之内耗费资源,具体在做什么: http://192.168.10.235:9209/_nodes/hot_threads?ignore_idle_threads=true&interval=500ms&threads=3&type=cpu
 * 分词接口: http://192.168.10.235:9209/eagleye_bigindex_2016.02.21_short/_analyze?field=log.body
 
-### eskeeper-drive 需求
 
 
 
